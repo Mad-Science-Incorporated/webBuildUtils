@@ -1,0 +1,20 @@
+{
+    "name": "madscience-webbuildutils",
+    "version": "0.0.1",
+    "description": "Library of useful async-ready web build functions.",
+    "private": false,
+    "author": "shukri.adams@gmail.com",
+    "license": "MIT",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/Mad-Science-Incorporated/webBuildUtils.git"
+    },
+    "dependencies": {
+        "babel-minify" : "0.5.1", 
+        "@node-minify/core" : "6.2.0",
+        "@node-minify/clean-css" : "6.2.0",
+        "multistream" : "4.1.0",
+        "glob" : "7.1.7",
+        "fs-extra": "7.0.1"
+    }
+}
